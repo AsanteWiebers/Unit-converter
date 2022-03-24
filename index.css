@@ -1,0 +1,74 @@
+:root {
+
+    /* font */
+    --serif: 'Hind Siliguri', sans-serif;
+
+    /* colours */
+
+    --dark: #1F2937;
+    --grey: #D2D2D2;
+    --white: #fff;
+
+}
+
+/* resets */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: var(--serif);
+    line-height: 1.5;
+}
+
+
+.text-dark {
+    color: var(--dark);
+}
+
+.text-grey {
+    color: var(--grey);
+}
+
+.text-white {
+    color: var(--white);
+}
+
+/* background */
+
+.dark-bg {
+    background: var(--dark);
+}
+
+.grey-bg {
+    background: var(--grey);
+}
+
+.card {
+
+    height: 50vh;
+    width: 350px;
+    text-align: center;
+    margin: 10em auto;
+}
+
+.linear {
+    background-image: linear-gradient( to left, #ED4880, #F38B17);
+    height: 20vh;
+
+}
+
+.dark-bg {
+    height: 30vh;
+}
